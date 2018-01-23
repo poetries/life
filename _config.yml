@@ -1,0 +1,133 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Poetry's Blog
+subtitle: Choose a gesture to allow yourself to live irreplaceable.
+description: 执于一种追求
+author: Poetry
+language: zh-Hans
+timezone: Asia/Shanghai
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://blog.poetries.top
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+
+# Category & Tag
+default_category: default
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 20
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: fexo
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: https://git.coding.net/poetry/poetry.git
+  branch: master
+
+# title, chinese available
+links_title: 常用链接
+
+# links
+links:
+  前端搜索: http://jsdig.com/
+  css检索: http://cssvalues.com/
+  醉牛前端: http://f2er.club/
+  前端网址: http://caibaojian.com/links
+  前端导航: http://jsdig.com/
+  前端css88: http://www.css88.com/nav/
+  程序资料: http://codecloud.net/
+  FED社区: http://frontenddev.org/
+  构建工具: https://www.awesomes.cn/
+  OverAPI: http://overapi.com/
+  DevDocs: http://devdocs.io/
+  CSS词汇: http://yisibl.github.io/css-vocabulary/
+  JS花园: http://www.jb51.net/onlineread/JavaScript-Garden-CN/#intro
+  工具索引: http://tool.oschina.net/
+  设计导航: http://hao.shejidaren.com/
+  设计相关: http://admire.so/
+  用户体验: http://www.uedh.cn/
+  JSbin: http://jsbin.com/
+  Codepen: http://codepen.io/pen
+  RunJs: http://runjs.cn/
+  GitBox: https://app.gistboxapp.com/
+  ToolBox: http://tool.lu/
+
+  
+# Extensions
+## Plugins: https://hexo.io/plugins/
+plugins:
+    hexo-generator-feed
+    hexo-generator-search
+
+# 站内搜索打开
+search:
+  path: search.xml
+  field: all
+  
+avatar: /images/avatar.jpg
+
+duoshuo_shortname: poetry
+
+baidu_analytics: 40b1f89aa80f2527b3db779c6898c879
+
+# JiaThis 分享服务
+jiathis: true
+
+# 百度分享服务
+baidushare: false
+
+# Swiftype Search Keyswiftype_key:
+swiftype_key: v9qj9piTH6n2pV9s23zR
+
+# 站点起始时间
+since: 2015
+
+
