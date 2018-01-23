@@ -7,12 +7,12 @@ menu:
 # SubNav
 subnav:
   github: "#"
-  weibo: "#"
+  #weibo: "#"
   rss: "#"
-  zhihu: "#"
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
-  #jianshu: "#"
+  jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
